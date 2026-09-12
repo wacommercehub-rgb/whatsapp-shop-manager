@@ -1,0 +1,14 @@
+{
+  "name": "whatsapp-shop-manager-mcp",
+  "version": "1.0.0",
+  "description": "Connects and syncs e-commerce stores directly to WhatsApp Shop Manager to automate product catalogs and messaging.",
+  "author": "wacommercehub-rgb",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wacommercehub-rgb/whatsapp-shop-manager"
+  },
+  "type": "stdio",
+  "command": "node",
+  "args": ["index.js"]
+}
