@@ -10,3 +10,4 @@ Syncs an array of products to your WhatsApp shop catalogue.
 **Arguments:**
 * `apiKey` (string, required): Your WhatsApp Shop Manager API key.
 * `products` (array, required): List of products to insert.
+[![Listed on mcpservers.org](https://mcpservers.org/badge.svg)](https://mcpservers.org/servers/whatsappshopmanager-zite-so)
