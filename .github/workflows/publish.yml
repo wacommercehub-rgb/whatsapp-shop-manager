@@ -19,9 +19,11 @@ jobs:
           curl -L "https://github.com/modelcontextprotocol/registry/releases/latest/download/mcp-publisher_${OS}.tar.gz" | tar xz mcp-publisher
 
       - name: Publish Server
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           ./mcp-publisher publish \
             --name "io.github.wacommercehub-rgb/whatsapp-shop-manager-mcp" \
             --description "Connects and syncs e-commerce stores directly to WhatsApp Shop Manager to automate product catalogs and messaging." \
             --repo "https://github.com/wacommercehub-rgb/whatsapp-shop-manager" \
-            --token "${{ secrets.GITHUB_TOKEN }}"
+            --token "${GITHUB_TOKEN}"
